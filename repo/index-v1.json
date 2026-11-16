@@ -1,0 +1,91 @@
+{
+  "repo": {
+    "timestamp": 1794862957000,
+    "version": 20002,
+    "name": "NJ's Recall",
+    "icon": "icon.png",
+    "address": "https://raw.githubusercontent.com/AndrzejMnM/recall-fdroid/main/repo",
+    "description": "Signed releases of Recall, NJ's personal flashcard app. This repository holds only the APKs and this index; the source code is private."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "NJ",
+      "categories": [
+        "Science & Education"
+      ],
+      "suggestedVersionCode": "8",
+      "description": "NJ's personal flashcard app. Due cards appear right after unlocking the phone\nand after 15 minutes in a scrolling app; a spaced-repetition scheduler (FSRS)\ndecides when each card comes back. Every card is a position on a trading\ndesk: the book loses value while cards wait, and reviewing earns points,\nranks and awards. Cards come from NJ's Google Sheet; the app needs a setup\ncode to connect, so it does nothing useful for anyone else.",
+      "license": "LicenseRef-Proprietary",
+      "name": "Recall",
+      "summary": "Flashcards at natural moments, run as a trading desk for memory",
+      "added": 1794862957000,
+      "packageName": "pl.nj.recall",
+      "lastUpdated": 1794862957000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_-kBB_es2CqSOKnyZ_bU9tx0xbPM_z2y6sqo6RD6x0_A=.png"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "pl.nj.recall": [
+      {
+        "added": 1794862957000,
+        "apkName": "Recall-0.5.0.apk",
+        "hash": "880c65f9187e51412e47fa05effcb90969549e04c6b8edb52690f7bb48a63eb1",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "packageName": "pl.nj.recall",
+        "sig": "6a0e85f01bde1dee1c21c8a86dcc3c36",
+        "signer": "8a1c603bce83a05ddf83bc03ba87d579d741823340bebaaea3c0de6fd35d899c",
+        "size": 598860,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.PACKAGE_USAGE_STATS",
+            null
+          ]
+        ],
+        "versionCode": 8,
+        "versionName": "0.5.0"
+      }
+    ]
+  }
+}

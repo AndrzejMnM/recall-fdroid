@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="NJ's Recall" pubkey="308204fa308202e2a00302010202090089b14fa90870faa2300d06092a864886f70d01010b0500302a3110300e060355040b1307462d44726f6964311630140603550403130d726563616c6c2d6664726f69643020170d3236313131363230333232385a180f32303534303430333230333232385a302a3110300e060355040b1307462d44726f6964311630140603550403130d726563616c6c2d6664726f696430820222300d06092a864886f70d01010105000382020f003082020a0282020100bdc8e5a44e9f617685b73099213ec6c22c38cb8ed1ae7efdb1f2d83f86353aea7a2d4f4e02f53f2c9cd9039c2485c11ddc780d2b460faf41082df3b07bba892946ec2fd16b5b8aa13570d0b40305b2b62b132438becc1317e09eb77dc07e9c654a966e2c354fd2cc8652f404b4f78c7c5724f1ca57ae6f5eb8703306714dd142d0cff5f0d71b7fb88631060bd4d1625fe1c9eceba8d0270db911d7bfc33d585602f8e16bb956dddf846573beee9c003a85a4d600b6116d41fac0724e40740462031645fa7316f4ef94a5c78a493153afc91744e45dd60ec13087a794ca792c32dd2a5c7fc23f96bab6c13fce1ca5c7c24b44f660d8000129b61f53a3e85c6ecc6c718208cbe34972494a43a51b02ff5b801ad453a88ae3f37a84a17cce4f7855fd3b6ce829690809ebb5256053e870c7a7d589a11d8aa697c06d9c4e5a0df8ce4db31e340d712960440790fefdc618e1ef7bbda3366bda13d708d864c4ee18d2ab0117dfdd014eb0954a25c788f832c222a73899a6f2c8d1c994718a05665c16a6dec883b25298bd613e32168da02f581bea87667c0c9e147bdd511646481163991235d994cc116007828902bc22a13aa194a92a3e379cf803aaa56435ac5eeffd6b2a91528a1da73567bcfb86e82771a5db9174d7caa4b60bebf2b8c71ada0f8adecc89eb204729e92d45eb65e7d725d88ecf7b7e57615c2437165363afddc30203010001a321301f301d0603551d0e0416041401afd3f13534f2d6ec05f74f1b9e1b75a5d297f7300d06092a864886f70d01010b050003820201003be194322c390a1e962a2929c3f548b9690ac47d5e1b7685e13f4bec166a57dd649c9c65ef9dd85d5fa7a57c1a3bbadb0adb18c70ab6eb667374e0fa96598b4717954845f2cef29567065fd1233890bad43bbbbc3bf434b60de981ff2afa99d83bfdfd501d267e9b3c6cba97a8a4933849a9e7b702da8b52c78b276521019c5595c008b6ad9a340edac6c64a17c79b3bb5d8d5bcb3036aa87b658ccfea7d4b319d614ea47e7a1925c2768ce61d44dacf5b969d20c4cb1441a7beff31e783abc76b4cca26a12dc7ab64a9e0b8e8e7b7327101e44b7422474a821f41203ece2ba72f66146e6c75084f525e4887dcad784dad14e8eb74fa1923abf56aa7afc2d0686ae31353188b3f642bf744620948d20c3c95c6942a176dbe4036c6ab63e201fbf7cd70ac55d5ce6223151aa2e036b5496ebf2d2657489312e91c7ff6a6faae6f185ec0dbfed1e77ef9d1a659971b859c45b043f8da66a352b514a84d7f6ad68f3eb55c077a20fe6d7e26bd8a51541638f1506933d1798632fc1815a8cec7f2b5edffda09cc67c0a1929ff4d6ee973bfff30b7b031fe2f8717b1345dc91a9714651911879b998d1f3e227a43f7cc30823d7b317e7b3057b529de462cdd4a774543852e168001eb569831d2dbd0db4b8dd2f09fa82242f0bb6aa6d299db1501618e1c7c8939a5730857a35f8e66ae2ee4f7eb0ae63dbc263f367b6fbb4d727066f" timestamp="1794862957" url="https://raw.githubusercontent.com/AndrzejMnM/recall-fdroid/main/repo" version="20002">
+		<description>Signed releases of Recall, NJ's personal flashcard app. This repository holds only the APKs and this index; the source code is private.</description>
+	</repo>
+	<application id="pl.nj.recall">
+		<id>pl.nj.recall</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Recall</name>
+		<summary>Flashcards at natural moments, run as a trading desk for memory</summary>
+		<desc>NJ's personal flashcard app. Due cards appear right after unlocking the phone
+and after 15 minutes in a scrolling app; a spaced-repetition scheduler (FSRS)
+decides when each card comes back. Every card is a position on a trading
+desk: the book loses value while cards wait, and reviewing earns points,
+ranks and awards. Cards come from NJ's Google Sheet; the app needs a setup
+code to connect, so it does nothing useful for anyone else.</desc>
+		<license>LicenseRef-Proprietary</license>
+		<categories>Science &amp; Education</categories>
+		<category>Science &amp; Education</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>NJ</author>
+		<marketversion></marketversion>
+		<marketvercode>8</marketvercode>
+		<package>
+			<version>0.5.0</version>
+			<versioncode>8</versioncode>
+			<apkname>Recall-0.5.0.apk</apkname>
+			<hash type="sha256">880c65f9187e51412e47fa05effcb90969549e04c6b8edb52690f7bb48a63eb1</hash>
+			<size>598860</size>
+			<sdkver>29</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>6a0e85f01bde1dee1c21c8a86dcc3c36</sig>
+			<permissions>FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,PACKAGE_USAGE_STATS,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,SYSTEM_ALERT_WINDOW,VIBRATE</permissions>
+		</package>
+	</application>
+</fdroid>

@@ -1,0 +1,11 @@
+# Never published: the repository's signing key, its passwords and fdroid's work files.
+config.yml
+keystore.p12
+*.p12
+*.jks
+tmp/
+*.log
+metadata/
+/icon.png
+# Build-machine details fdroid writes; the F-Droid app does not need them.
+repo/status/

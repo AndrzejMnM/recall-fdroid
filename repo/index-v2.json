@@ -1,0 +1,108 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "NJ's Recall"
+    },
+    "description": {
+      "en-US": "Signed releases of Recall, NJ's personal flashcard app. This repository holds only the APKs and this index; the source code is private."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "fa4041fdeb360aa48e2a7c99fdb53db71d316cf33fcf6cbab2aa3a443eb1d3f0",
+        "size": 5198
+      }
+    },
+    "address": "https://raw.githubusercontent.com/AndrzejMnM/recall-fdroid/main/repo",
+    "timestamp": 1794862957000,
+    "categories": {
+      "Science & Education": {
+        "name": {
+          "en-US": "Science & Education"
+        }
+      }
+    }
+  },
+  "packages": {
+    "pl.nj.recall": {
+      "metadata": {
+        "added": 1794862957000,
+        "categories": [
+          "Science & Education"
+        ],
+        "lastUpdated": 1794862957000,
+        "license": "LicenseRef-Proprietary",
+        "authorName": "NJ",
+        "name": {
+          "en-US": "Recall"
+        },
+        "summary": {
+          "en-US": "Flashcards at natural moments, run as a trading desk for memory"
+        },
+        "description": {
+          "en-US": "NJ's personal flashcard app. Due cards appear right after unlocking the phone\nand after 15 minutes in a scrolling app; a spaced-repetition scheduler (FSRS)\ndecides when each card comes back. Every card is a position on a trading\ndesk: the book loses value while cards wait, and reviewing earns points,\nranks and awards. Cards come from NJ's Google Sheet; the app needs a setup\ncode to connect, so it does nothing useful for anyone else."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/pl.nj.recall/en-US/icon_-kBB_es2CqSOKnyZ_bU9tx0xbPM_z2y6sqo6RD6x0_A=.png",
+            "sha256": "fa4041fdeb360aa48e2a7c99fdb53db71d316cf33fcf6cbab2aa3a443eb1d3f0",
+            "size": 5198
+          }
+        },
+        "preferredSigner": "8a1c603bce83a05ddf83bc03ba87d579d741823340bebaaea3c0de6fd35d899c"
+      },
+      "versions": {
+        "880c65f9187e51412e47fa05effcb90969549e04c6b8edb52690f7bb48a63eb1": {
+          "added": 1794862957000,
+          "file": {
+            "name": "/Recall-0.5.0.apk",
+            "sha256": "880c65f9187e51412e47fa05effcb90969549e04c6b8edb52690f7bb48a63eb1",
+            "size": 598860
+          },
+          "manifest": {
+            "versionName": "0.5.0",
+            "versionCode": 8,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "8a1c603bce83a05ddf83bc03ba87d579d741823340bebaaea3c0de6fd35d899c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.PACKAGE_USAGE_STATS"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
