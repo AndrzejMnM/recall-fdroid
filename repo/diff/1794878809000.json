@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1794878842000
+  },
+  "packages": {
+    "pl.nj.teraz": {
+      "metadata": {
+        "description": {
+          "en-US": "NJ's personal app for the commitments in his own to-do sheet: each with\none next action, its day and how often it slipped. One tap marks a\nnext action done, \"Ask Claude\" sends a commitment to the Claude app, and a\nspark (an idea for later) takes two seconds from the app, the widget or the\nshare sheet. The app needs a setup code to connect, so it does nothing useful\nfor anyone else."
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "repo": {
     "name": {
-      "en-US": "NJ's Recall"
+      "en-US": "NJ's apps"
     },
     "description": {
-      "en-US": "Signed releases of Recall, NJ's personal flashcard app. This repository holds only the APKs and this index; the source code is private."
+      "en-US": "Signed releases of NJ's personal apps: Recall (flashcards) and Teraz (commitments and next actions). This repository holds only the APKs and this index; the source code is private."
     },
     "icon": {
       "en-US": {
@@ -14,11 +14,16 @@
       }
     },
     "address": "https://raw.githubusercontent.com/AndrzejMnM/recall-fdroid/main/repo",
-    "timestamp": 1794862957000,
+    "timestamp": 1794878842000,
     "categories": {
       "Science & Education": {
         "name": {
           "en-US": "Science & Education"
+        }
+      },
+      "Time": {
+        "name": {
+          "en-US": "Time"
         }
       }
     }
@@ -98,6 +103,65 @@
               },
               {
                 "name": "android.permission.PACKAGE_USAGE_STATS"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pl.nj.teraz": {
+      "metadata": {
+        "added": 1794878793000,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1794878793000,
+        "license": "LicenseRef-Proprietary",
+        "authorName": "NJ",
+        "name": {
+          "en-US": "Teraz"
+        },
+        "summary": {
+          "en-US": "NJ's commitments and next actions, with Done, sparks and a widget"
+        },
+        "description": {
+          "en-US": "NJ's personal app for the commitments in his own to-do sheet: each with\none next action, its day and how often it slipped. One tap marks a\nnext action done, \"Ask Claude\" sends a commitment to the Claude app, and a\nspark (an idea for later) takes two seconds from the app, the widget or the\nshare sheet. The app needs a setup code to connect, so it does nothing useful\nfor anyone else."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/pl.nj.teraz/en-US/icon_KiDOp8KpmClaGQWrP0q4ACfV7CGM9CaRY-e3uECYm3U=.png",
+            "sha256": "2a20cea7c2a998295a1905ab3f4ab80027d5ec218cf4269163e7b7b840989b75",
+            "size": 19640
+          }
+        },
+        "preferredSigner": "8a1c603bce83a05ddf83bc03ba87d579d741823340bebaaea3c0de6fd35d899c"
+      },
+      "versions": {
+        "b4783b78714a52f3fbc4b37a254588b6c6f954ba0c1bced99576c0b2a6124602": {
+          "added": 1794878793000,
+          "file": {
+            "name": "/Teraz-0.1.0.apk",
+            "sha256": "b4783b78714a52f3fbc4b37a254588b6c6f954ba0c1bced99576c0b2a6124602",
+            "size": 118388
+          },
+          "manifest": {
+            "versionName": "0.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "8a1c603bce83a05ddf83bc03ba87d579d741823340bebaaea3c0de6fd35d899c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               }
             ]
           }
